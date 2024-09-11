@@ -65,17 +65,36 @@ body {
     background-color: #005bb5;
 }
 
-.footer {
+footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 15px 0;
-    position: fixed;
+    padding: 20px 0;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
 
-.footer p {
-    margin: 0;
-    font-size: 0.9em;
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.repo-links {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.repo-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.repo-links a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.repo-links a:hover {
+    text-decoration: underline;
 }
